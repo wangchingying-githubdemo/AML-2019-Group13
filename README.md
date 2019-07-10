@@ -23,4 +23,14 @@ The main challenges of vanilla gradient descent includes:
 
 # Experiments with Gradient Descent
 
-For our project part 1, we apply vanilla gradient descent, gradient descent with momentum and gradient descent with Nesterov’s accelerated gradient descent to the function:
+For our project part 1, we apply vanilla gradient descent, gradient descent with momentum and gradient descent with Nesterov’s accelerated gradient descent to the function (chosen from http://www.sfu.ca/~ssurjano/camel3.html):
+
+<center><img src="https://raw.githubusercontent.com/tvxqtvbs777/AML/master/images/functions.png" alt="W3Schools.com"> </center>
+<br>This is a multi-variate function with multiple minima. Global Minimum of it is at (0,0,0).
+<br>
+<br>
+This function is 
+<img src="https://raw.githubusercontent.com/tvxqtvbs777/AML/master/images/functions%20-%20%E8%A4%87%E8%A3%BD.png" alt="W3Schools.com"> 
+x1 = np.arange(-2, 2, 0.25)
+x2 = np.arange(-2, 2, 0.25)
+
