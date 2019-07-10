@@ -115,8 +115,8 @@ Result: Converged in 69 steps.  Loss fn 1.9103471011713964 achieved by x1 = -1.8
 
 <table style="width:100%">
  The code:   
-```bash
- solver.momentum(x1_init = 1,x2_init = 1, n_iter = 10000, eta = 0.01, tol = 1e-5,<b>alpha =0.5</b>)
+ ```bash
+The code: solver.momentum(x1_init = 1,x2_init = 1, n_iter = 10000, eta = 0.01, tol = 1e-5, alpha =0.5)
 ```
  
   <tr>
@@ -180,8 +180,9 @@ However, if learning rate is too fast, it will diverge
 ### Nesterov’s Accelerated Gradient
 
 <table style="width:100%">
-  ```bash
- solver.nag(x1_init = 1,x2_init = 1, n_iter = 10000, eta = 0.01, tol = 1e-5,<b>alpha =0.5</b>)
+ The code:   
+ ```bash
+The code: solver.momentum(x1_init = 1,x2_init = 1, n_iter = 10000, eta = 0.01, tol = 1e-5, alpha =0.5)
 ```
   <tr>
     <td>steps </td>
