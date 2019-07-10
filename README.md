@@ -1,7 +1,7 @@
 # AML_2019 Coursework, Part 1, Group 13
 <b>1. Why is gradient descent important in machine learning?</b> 
 <br>
-Gradient descent is important in machine learning because it is used to minimize the cost function efficiently. In machine learning, there is usually a loss function (called loss function, which we will call the objective function objection function). We usually want this function to be as small as possible (that is, to find the minimum value). Each time a model is created (for example drawing best-fit a line across all that captures most of data points), we have to validate its performance. This is done by coming up with a cost function such as mean square error (the difference between the predicted values and the actual values). In order to fit the best model, we need to minimize that cost function. Intuitively this results in the model which predicts with the smallest error. 
+Gradient descent is important in machine learning because it is used to minimize the cost function efficiently. In machine learning, there is usually a loss function. We usually want this function to be as small as possible (that is, to find the minimum value). Each time a model is created (for example drawing best-fit a line across all that captures most of data points), we have to validate its performance. This is done by coming up with a function such as mean square error (the difference between the predicted values and the actual values). In order to fit the best model, we need to minimize its loss function. Intuitively this results in the model which predicts with the smallest error. 
 <br>
 <br>
 
