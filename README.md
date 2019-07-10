@@ -23,7 +23,7 @@ The main challenges of vanilla gradient descent includes:
 
 # Experiments with Gradient Descent
 
-For our project part 1, we apply vanilla gradient descent, gradient descent with momentum and gradient descent with Nesterov’s accelerated gradient descent to the function:  ![image.png](attachment:image.png)
+For our project part 1, we apply vanilla gradient descent, gradient descent with momentum and gradient descent with Nesterov’s accelerated gradient descent to the function:  
 
 
 
