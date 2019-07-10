@@ -242,6 +242,8 @@ With increasing eta, time and steps needed to converge will decrease.
 left is plain vanilla and right one is momentum but with alpha=0.5. Converged in 164 steps vs Converged in 73 steps
 <img src="https://raw.githubusercontent.com/tvxqtvbs777/AML/master/images/momentnag.png" alt="W3Schools.com"> 
 left is momentum and right one is nag. Both of them have same pararmeters. Converged in 73 steps vs Converged in 156 steps
+<img src="https://raw.githubusercontent.com/tvxqtvbs777/AML/master/images/vanillamoment.png" alt="W3Schools.com"> 
+When step size is large (ex eta=0.2), NAG is more efficient and can still find the global minimum as shown in the above picture whereas momentum jumps over the global minimum. This is due to the NAG algorithm looking forward (takes into account the forward step's gradient) while momentum is backward looking (only takes into account previous step).
 
 ### Conclusion
 It is clear that the momentum method is the most efficient among these three methods with the least steps to converge. If we increase the alpha, momentum method and Nesterov’s Accelerated Gradient will get faster. When eta is equal to 0.01, Nesterov’s Accelerated Gradient with alpha >0.4 can be faster than plain vanilla gd. So we can tune the parameter to make Nag faster than plain vanilla gd. Also, if we change initial value, we may achive local minimum.
