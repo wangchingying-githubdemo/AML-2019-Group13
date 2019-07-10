@@ -112,13 +112,12 @@ solver.vanilla_gd(x1_init = -2,x2_init = 2, n_iter = 2000, eta = 0.005, tol = 1e
 Result: Converged in 69 steps.  Loss fn 1.9103471011713964 achieved by x1 = -1.833583799392227 ,x2 = 2.166416200607775. This shows that x1 and x2 are not the global minimum. We conclude that global minimum is sensitity to inital value.
 
 ### Momentum
-
-<table style="width:100%">
- The code:   
- ```bash
+ The code: 
+  
+```bash
 The code: solver.momentum(x1_init = 1,x2_init = 1, n_iter = 10000, eta = 0.01, tol = 1e-5, alpha =0.5)
 ```
- 
+<table style="width:100%">
   <tr>
     <td>steps </td>
     <td>Loss fn</td> 
@@ -180,8 +179,9 @@ However, if learning rate is too fast, it will diverge
 ### Nesterov’s Accelerated Gradient
 
 <table style="width:100%">
- The code:   
- ```bash
+ The code: 
+  
+```bash
 The code: solver.momentum(x1_init = 1,x2_init = 1, n_iter = 10000, eta = 0.01, tol = 1e-5, alpha =0.5)
 ```
   <tr>
