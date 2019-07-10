@@ -240,7 +240,7 @@ With increasing eta, time and steps needed to converge will decrease.
 ### Comparsion
 <img src="https://raw.githubusercontent.com/tvxqtvbs777/AML/master/images/vanillamoment.png" alt="W3Schools.com"> 
 left is plain vanilla and right one is momentum but with alpha=0.5. Converged in 164 steps vs Converged in 73 steps
-<img src="https://raw.githubusercontent.com/tvxqtvbs777/AML/master/images/momentnag.png.com"> 
+<img src="https://raw.githubusercontent.com/tvxqtvbs777/AML/master/images/momentnag.png" alt="W3Schools.com"> 
 left is momentum and right one is nag. Both of them have same pararmeters. Converged in 73 steps vs Converged in 156 steps
 
 ### Conclusion
