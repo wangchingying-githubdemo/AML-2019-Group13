@@ -23,10 +23,10 @@ The main challenges of vanilla gradient descent includes:
 
 # Experiments with Gradient Descent
 
-For our project part 1, we apply vanilla gradient descent, gradient descent with momentum and gradient descent with Nesterov’s accelerated gradient descent to the function (chosen from http://www.sfu.ca/~ssurjano/camel3.html):
+For our project part 1, we apply vanilla gradient descent, gradient descent with momentum and Nesterov’s accelerated gradient descent to the function (chosen from http://www.sfu.ca/~ssurjano/camel3.html):
 
 <center><img src="https://raw.githubusercontent.com/tvxqtvbs777/AML/master/images/functions.png" alt="W3Schools.com"> </center>
-<br>This is a multi-variate function with multiple minima. Global Minimum of it is at (0,0,0).
+<br>This is a multi-variate function with multiple minima. Global Minimum is at (0,0,0).
 <br>
 <img src="https://raw.githubusercontent.com/tvxqtvbs777/AML/master/images/functions%20-%20%E8%A4%87%E8%A3%BD.png" alt="W3Schools.com"> 
 x1 = np.arange(-2, 2, 0.25)
@@ -35,7 +35,7 @@ x2 = np.arange(-2, 2, 0.25)
 x2 = np.arange(-2, 2, 0.25)
 
 <br>
-Before start to look for global minimum, we define a class called gd, which includes the function of plain vanilla gradient descent, momentum, Nesterov’s Accelerated Gradient. In these functions, they are mainly deal with 2 variables and save pathes for them and the loss function.
+Before starting to look for global minimum, we define a class called gd, which includes the functions for plain vanilla gradient descent, momentum and Nesterov’s Accelerated Gradient. In these functions, they mainly deal with 2 variables and save the paths for the model's respective loss function.
 
 ### Plain vanilla gradient descent
 
@@ -244,4 +244,4 @@ left is plain vanilla and right one is momentum but with alpha=0.5. Converged in
 left is momentum and right one is nag. Both of them have same pararmeters. Converged in 73 steps vs Converged in 156 steps
 
 ### Conclusion
-It is clear that the momentum method is the most efficient among these three methods with the least steps to converge. Besides, if we increase the alpha, momentum method and Nesterov’s Accelerated Gradient will getting faster. When eta is equal to 0.01, Nesterov’s Accelerated Gradient with alpha >0.4 can be faster than plain vanilla gd. So we can tune the parameter to make Nag faster than plain vanilla gd. Also, if we change initial value, we may achive local minimum.
+It is clear that the momentum method is the most efficient among these three methods with the least steps to converge. If we increase the alpha, momentum method and Nesterov’s Accelerated Gradient will get faster. When eta is equal to 0.01, Nesterov’s Accelerated Gradient with alpha >0.4 can be faster than plain vanilla gd. So we can tune the parameter to make Nag faster than plain vanilla gd. Also, if we change initial value, we may achive local minimum.
